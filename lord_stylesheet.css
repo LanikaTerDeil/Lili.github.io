@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans|PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic);
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	background-color: #333;
+	color: #fff;
+	font-family: 'Tenor Sans', sans-serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column; 
+}
+
+.full-screen {
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.full-screen__body {
+	padding: 35px 35px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex: 1 1 auto; 
+	justify-content: space-between;
+	align-items: center;
+/*	flex-direction: column; */
+	text-transform: uppercase;
+}
+
+.full-screen__text {
+	/* display: none; */
+	font-size: 24px;
+    text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+.full-screen__video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#video {
+	display: none;
+}
+#smoke {
+	display: none; 
+}
+
+#dracula {
+	display: none; 
+    height: 90%;
+/*    position: absolute; */
+	z-index: 3;
+    bottom: 0;
+}
+
+#dracula_photo {
+	margin-bottom: 10px;
+	height: 80vh;
+}
+
+.Crimson {
+	color: #DC143C;
+	font-weight: bold;
+}
+
+#Dracula_text {
+	text-align: center;
+}
+
+.full-screen__sidet-content {
+	display: flex;
+	z-index: 3;
+}
+
+.full-screen__right-content__text {
+	text-align: right;
+	line-height: 40px;
+}
+
+.full-screen__left-content__text {
+	text-align: left;
+	line-height: 40px;
+}
+
+#dracula__button {
+	text-align: center;
+	font-size: 13px;
+}
+#heart {
+	height: 2.5vh;
+	background: transparent;
+} 
+
+#stars {
+	display: none;
+}
+#Kru {
+	display: none;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#left {
+	display: none;
+}
+
+#right {
+	display: none;
+}
+
+#hi {
+	z-index: 4;
+}
